@@ -5,7 +5,7 @@ var favicon = require('serve-favicon');
 
 var app = express();
 
-app.use(favicon(__dirname + '/dist/imagess/favicon.ico'));
+app.use(favicon(__dirname + '/dist/images/favicon.ico'));
 app.use(express.static(__dirname + "/dist"));
 app.use(bodyParser.json());
 
