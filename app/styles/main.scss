@@ -3,8 +3,17 @@
   height: auto;
 }
 
+a {
+  color: #373a3c;
+
+  &:hover {
+    color: black !important;
+  }
+}
+
 nav {
   padding: 10px;
+  padding-left: 0;
 }
 
 .nav--bar {
@@ -12,15 +21,22 @@ nav {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .nav--item {
   padding: 10px;
+
+
+}
+
+.logo--container {
+  margin-right: auto;
+  padding-left: 0;
 }
 
 .img--logo {
-  width: 40px;
+  width: 60px;
 }
 
 .content--page {
@@ -32,5 +48,5 @@ nav {
 }
 
 .page--intro {
-  margin-bottom: 100px;
+  margin-top: -140px;
 }
